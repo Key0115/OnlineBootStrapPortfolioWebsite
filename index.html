@@ -14,121 +14,146 @@
   <body>
     <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="main.html">Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav" style="position: absolute; right:0px; padding: 5%;">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-              <a class="nav-link" href="#">Work experience</a>
-              <a class="nav-link" href="#">Project</a>
-              <a class="nav-link" href="#">Contact</a>
-            </div>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Image\icon.png" alt="" width="50" height="50">
+        </a>
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link me-6 " aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-6" href="#exp">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-6 " href="#pro" >Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-6 " href="#con" >Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!--Main pic-->
-<div
+<div class=""
   style="
-    background-image: url('Image/Profile pic.jpg');
+    background-image: url('Image/mainpic.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 600px;
+    height: 80vh;
   ">
   <h3 style=" color: white;
   margin: 0;
-  padding: 20px;">I am.... </h3>
+  padding: 20px; font-family:'Times New Roman', Times, serif">I am.... </h3>
   <h1 style=" color: white;
-  margin: 0">Koki Ohira</h1>
+  margin: 0; font-family:'Times New Roman', Times, serif">Koki Ohira</h1>
   <h1 style=" color: white;
-  margin: 0">Full Stack Developer</h1>
+  margin: 0; font-family:'Times New Roman', Times, serif; font-size: 8vw;">Full Stack Developer</h1>
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="mailto: ohirakoki@gmail.com"><img src ="Image\gmail.png " alt="" width="50" height="50"></a>
+      <a class="nav-link active" aria-current="page" href="mailto: ohirakoki@gmail.com"><img src ="Image\gmail.png " alt="" width="50vw" height="50vh"></a>
+    </li>
+      <a class="nav-link" href="https://www.linkedin.com/in/ohira-koki"><img src ="Image\linkedin.png" alt="" width="50vw" height="50vh"></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://www.linkedin.com/in/ohira-koki"><img src ="Image\linkedin.png" alt="" width="50" height="50"></a>
+      <a class="nav-link" href="https://github.com/Key0115"><img src ="Image\github.png" alt="" width="50vw" height="50vh"></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://github.com/Key0115"><img src ="Image\github.png" alt="" width="50" height="50"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="files\Koki Ohira CV.pdf" download><img src ="Image\cv.png" alt="" width="50" height="50"></a>
+      <a class="nav-link" href="files\Koki Ohira CV.pdf" download><img src ="Image\cv.png" alt="" width="50vw" height="50vh"></a>
     </li>
   </ul>
 </div>
+<!--About-->
+<div class="About" id="about">
+ <h1 style="position:relative; text-align: center; font-family:'Times New Roman', Times, serif">About me</h1> 
+</div>
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="Image\Profile pic.jpg" class="img-fluid rounded-circle" alt="..." style="border-radius: 50%;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-text"  style="font-family:'Times New Roman', Times, serif">I am BSc Computer Science student, studying at Kingston University. I am a highly motivated and enthusiastic student, who would like to engage further in the future. Moreover, I am keen on developing my knowledge by taking a placement year in software engineering, where I can contribute to increase technological development. I am eager to learn new fields. For example, I have learnt programming, languages, tennis, music and art.</h4>
+        <a href="files\Koki Ohira CV.pdf" class="btn btn-primary btn-lg" style=" width:50%">CV</a>  
+      </div>
+    </div>
+  </div>
+</div>
 <!--Work experience-->
 <div class="row">
-    <div class="col-12">
-      <h1 style="position:relative; text-align: center;">What I learnt</h1>  
+    <div class="col-12" id="exp">
+      <h1 style="position:relative; text-align: center;">Experience</h1>  
     </div>
     <div class="card-group">
         <div class="card">
           <img src="Image\backend.png" style="max-height: 59%" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Backend</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img src="Image\java_logo.png" class="img-fluid rounded-circle" alt="..." style="border-radius: 50%; width: 8vw; height: 8vh;">
+            <img src="Image\python-logo.png" class="img-fluid rounded-circle" alt="..." style="border-radius: 50%; width: 10vw; height: 15vh;">
+            <img src="Image\javascript.png" class="img-fluid" alt="..." style="width: 5vw; height: 8vh;">
+            <img src="Image\Csharp.svg" class="img-fluid" alt="..." style="width: 10vw; height: 10vh;">
+            <img src="Image\mySQL-logo.png" class="img-fluid" alt="..." style="width: 5vw; height: 8vh;">
+
           </div>
         </div>
         <div class="card">
-          <img src="Image\frontend.png" style="max-height: 59%" class="card-img-top" alt="...">
+          <img src="Image\frontend.png" style="max-height: 50%" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Frontend</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <img src="Image\HTML5_logo.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
+            <img src="Image\CSS.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
+            <img src="Image\Bootstrap_logo.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
           </div>
         </div>
         <div class="card">
           <img src="Image\Ui-Ux.png" style="max-height: 59%" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">UI&UX design</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <img src="Image\figma.png" class="img-fluid rounded-circle" alt="..." style="width: 10vw; height: 10vh;">
           </div>
         </div>
       </div>
-<!--work experience-->
-    <div class="row">
-        <h1 style="position:relative; text-align: center; padding-top: 30px;">Work experience</h1>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body" style="height: 590px;" >
-              <h5 class="card-title">Assistant Project Manager</h5>
-              <p class="card-text">23th August 2021 ~ 27th August 2021</p>
-              <p>・Worked as an assistant project manager in System development department.</p>
-              <p>・Designed a project management plan for learning software for the junior high school students by using waterfall module as a project leader.</p>
-              <p>・Designed a detailed schedule using a Work Breakdown Structure(WBS) as a team.</p>
-              <p>・Analyzed the potential risks of each scenario with the level of the impact that risks may cause and discuss the solutions to mitigate the impact as a team</p>
+<!--projects-->
+    <div class="row" id="pro">
+        <h1 style="position:relative; text-align: center; padding-top: 30px;">Projects</h1>
+        <div class="card-group">
+          <div class="card" style="border-radius: 10%;">
+            <img src="videos\endgame3.png" width="250vw" height="250vh"  class="card-img-top" alt="..." style="border-radius: 20%;" >
+            <div class="card-body">
+              <h5 class="card-title">Endgame</h5>
+              <p class="card-text">I coded the 3 card games as a final project for the first year of the computer science course in Kingston University London. We programmed pick up 5 cards, High and Low and Black Jack by using the encapsulation and ArrayList in Java.</p>
+              <a href="https://github.com/Key0115/End-Game-Projects" class="btn btn-primary">Check it out!</a>           
+             </div>
+          </div>
+          <div class="card" style="border-radius: 10%;">
+            <img src="videos\endgame3.png" width="250vw" height="250vh"  class="card-img-top" alt="..." style="border-radius: 20%;" >
+            <div class="card-body">
+              <h5 class="card-title">Endgame</h5>
+              <p class="card-text">I coded the 3 card games as a final project for the first year of the computer science course in Kingston University London. We programmed pick up 5 cards, High and Low and Black Jack by using the encapsulation and ArrayList in Java.</p>
+            </div>
+          </div>
+          <div class="card" style="border-radius: 10%;">
+            <img src="videos\webapp.png" width="250vw" height="250vh" class="card-img-top" alt="..." style="border-radius: 20%; " >
+            <div class="card-body">
+              <h5 class="card-title">Java Spring web application</h5>
+              <p class="card-text">I implemented the Java and SQL database by using Java Spring and MySQL to make the website to the web application.  Firstly, I implemented my HTML files of the website and the image pack files. Then, I made the website to the web application by connecting each HTML files to the corresponded controller class. For instance, the controller of the booking files is booking controller. Afterwards, I implemented the SQL database by connecting the database with the compiler. I use the 3nf normalised data to avoid any confusion or data lost. </p>
+              <a href="https://github.com/smartay-edu/hotel" class="btn btn-primary">Check it out!</a>  
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body" style="height: 590px;" >
-              <h5 class="card-title">Full stack development</h5>
-              <p class="card-text">1st June 2023 ~ 30th June 2023</p>
-              <p>・I designed the hotel booking app template for the company by using Twitter Bootstrap and HTML 5. 
-                I learned the main structure of the Twitter Bootstrap, which is the container, row and column, also I implemented the several components from the Bootstraps.</p>
-              <p>・I learned about the DNS (Domain Name System) and use it to publish the website to the public internet. In order to do that I used the Google domains to get the custom domain.</p>
-              <p>・I implemented the Java and SQL database by using Java Spring and MySQL to make the website to the web application or dynamic website.</p>
-            </div>
-          </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body" style="height: 590px;" >
-                <h5 class="card-title">Student Ambassador program</h5>
-                <p class="card-text">15th Feburary ~ current</p>
-                <p>・I worked with the various of school events such as open days, graduation shift and STEM events.</p>
-                <p>・I guide and help the guests during the events by doing the campus tour, answering the question and sort it out the problem.</p>
-                <p>・I am experiencing various topics via work. For example, I learnt chemistry and biology during STEM outreach event by teaching and assisting students from local school especially during the practical. I also learnt the mechanisms of the NAO robot and Q car, which is both related to AI and 3D scanning by scanning the objects via scanner.</p>
-              </div>
-            </div>
-          </div>
-      </div>
+
 </div>
 <!--Contact-->
-<form class="row" action="https://formsubmit.co/ohirakoki@gmail.com" method="POST">
+<form class="row" id="con" action="https://formsubmit.co/ohirakoki@gmail.com" method="POST">
   <!--Disable captcha-->
   <input type ="hidden" name="_captcha" value="false">
   <input type="hidden" name="_next" value="http://portfolio.key0115.com/success.html">
