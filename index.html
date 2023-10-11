@@ -33,15 +33,24 @@
   .top-text { /* text on-top of top image ^^ */
     padding-left: var(--padding-2);
     padding-top: var(--padding-2);
-    color: var(--color-b);
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
+  }
+
+  .top-text > h1, .top-text > h3{
+    color: white !important;
+    text-shadow: 3px 3px 11px #000000;
+    max-width: fit-content;
+    padding: 2px;
   }
 
   #about > h1 { /* About text on image */
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: var(--padding-1);
+    color: white;
+    text-shadow: 3px 3px 11px #000000;
+    text-decoration: underline;
   }
 
   .col-md-4 > .round-image-50 { /* About me Image of you */
@@ -64,9 +73,19 @@
     width: var(--width-100);
   }
 
+  .card-top {
+    position: relative;
+    top: -7.9px;
+  }
 
+  .nav {
+    justify-content: space-evenly;    
+  }
 
-
+  .nav > li > a > img, .nav > a > img {
+    box-shadow: 3px 3px 18px -1px #000000;
+    border-radius: var(--circle);
+  }
 
 </style>
 
@@ -146,7 +165,7 @@
 
 
   <!--About-->
-  <div class="card mb-3">
+  <div class="card-top mb-3">
     <div class="row g-0">
       <div class="col-md-4">
         <img src="Image\Profile pic.jpg" class="img-fluid rounded-circle round-image-50" alt="...">
