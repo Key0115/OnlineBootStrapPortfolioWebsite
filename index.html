@@ -54,7 +54,7 @@
   }
 
   .col-md-4 > .round-image-50 { /* About me Image of you */
-    border-radius: 0 99px 99px 0 !important;
+    border-radius: 0 15px 15px 0 !important;
   }
 
   .card-group > .card {
@@ -69,7 +69,7 @@
     padding-top: 20px;
   }
 
-  .row-bottom {
+  .row-bottom  {
     width: var(--width-100);
   }
 
@@ -143,19 +143,23 @@
     </div>
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="mailto: ohirakoki@gmail.com"><img src="Image\gmail.png "
-            alt="" width="50vw" height="50vh"></a>
+        <a class="nav-link active" aria-current="page" href="mailto: ohirakoki@gmail.com">
+          <img src="Image\gmail.png " alt="" width="50vw" height="50vh">
+        </a>
       </li>
-      <a class="nav-link" href="https://www.linkedin.com/in/ohira-koki"><img src="Image\linkedin.png" alt=""
-          width="50vw" height="50vh"></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/Key0115"><img src="Image\github.png" alt="" width="50vw"
-            height="50vh"></a>
+      <a class="nav-link" href="https://www.linkedin.com/in/ohira-koki">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAV9JREFUSEvt179LV2EUx/GX0BAIIWhSSA02GIS4uUX5D1R/hlRQzToJOiqC4uTmHyCEm6Dg1CyBoAQKoaWLo4MoB54Lj1cJv3zv917BzvY8l3Pe93zOeX51aci6GuK6U+DnGKxYiV84yGOWM36K31SuxAUGcFjAy+C32Kg42yLcGDZbAe/iGR62+UMtgd/hO7qxhjdtwG8N/oMnGWgcS3WAz9GL0wSbxbc6wMFYxzJe4TN66gK3wbnmeusah+eHTOovabySVIjvo4gGnMMW/uI1phBLM7eWwI9xkrwX8AnTmExzUYI9nJUgD7CNl9l8peAi7jCOcJyBPmKxk+BVvEesghH8TLAow49OgR9lPRCMCcwkWBw2+50Cv0g1LuLP42sa9JWkb6nG/ZnzTc01hJ0sq9jZorZh0ZjR5YX9B19ZgeXz+P5J3dheXRu4scteZNjI9bZKaf8Z6069JGrJ+hJQKIAfFGduPAAAAABJRU5ErkJggg=="/>
+      </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="files\Koki Ohira CV.pdf" download><img src="Image\cv.png" alt="" width="50vw"
-            height="50vh"></a>
+        <a class="nav-link" href="https://github.com/Key0115">
+          <img src="Image\github.png" alt="" width="50vw" height="50vh">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="files\Koki Ohira CV.pdf" download>
+          <img src="Image\cv.png" alt="" width="50vw" height="50vh">
+        </a>
       </li>
     </ul>
     <div class="About" id="about">
@@ -186,40 +190,53 @@
 
   <!--Work experience-->
   <div class="row-top">
-    <div class="col-12" id="exp">
+    <div class="col-12" id="exp"> <!--Top Text-->
       <h1 style="position:relative; text-align: center;">Experience</h1>
     </div>
-    <div class="card-group">
+    <div class="card-group"> <!--Collection of cards-->
       <div class="card">
-        <img src="Image\backend.png" style="max-height: 59%" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Backend</h5>
-          <img src="Image\java_logo.png" class="img-fluid rounded-circle" alt="..."
-            style="border-radius: 50%; width: 8vw; height: 8vh;">
-          <img src="Image\python-logo.png" class="img-fluid rounded-circle" alt="..."
-            style="border-radius: 50%; width: 10vw; height: 15vh;">
-          <img src="Image\javascript.png" class="img-fluid" alt="..." style="width: 5vw; height: 8vh;">
-          <img src="Image\Csharp.svg" class="img-fluid" alt="..." style="width: 10vw; height: 10vh;">
-          <img src="Image\mySQL-logo.png" class="img-fluid" alt="..." style="width: 5vw; height: 8vh;">
+        <div>
+          <img src="Image\backend.png" height="250vh" class="card-img-top" alt="...">
+        </div>
 
+        <div class="card-body"> <!--1st Container-->
+          <h5 class="card-title">Backend</h5>
+          <div class="image-container"> 
+            <!--Input images here-->
+            <img src="Image\java_logo.png" class="img-fluid rounded-circle" alt="..."
+              style="border-radius: 50%; width: 8vw; height: 8vh;">
+            <img src="Image\python-logo.png" class="img-fluid rounded-circle" alt="..."
+              style="border-radius: 50%; width: 10vw; height: 15vh;">
+            <img src="Image\javascript.png" class="img-fluid" alt="..." style="width: 5vw; height: 8vh;">
+            <img src="Image\Csharp.svg" class="img-fluid" alt="..." style="width: 10vw; height: 10vh;">
+            <img src="Image\mySQL-logo.png" class="img-fluid" alt="..." style="width: 5vw; height: 8vh;">
+          </div>
         </div>
       </div>
 
 
-      <div class="card">
-        <img src="Image\frontend.png" style="max-height: 50%" class="card-img-top" alt="...">
+      <div class="card"> <!--2nd Container-->
+        <img src="Image\frontend.png" height="250vh" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Frontend</h5>
-          <img src="Image\HTML5_logo.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
-          <img src="Image\CSS.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
-          <img src="Image\Bootstrap_logo.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
+          <div class="image-container"> 
+            <!--Input images here-->
+            <img src="Image\HTML5_logo.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
+            <img src="Image\CSS.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
+            <img src="Image\Bootstrap_logo.png" class="img-fluid" alt="..." style="width: 8vw; height: 10vh;">
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img src="Image\Ui-Ux.png" style="max-height: 59%" class="card-img-top" alt="...">
+
+
+      <div class="card"> <!--3rd Container-->
+        <img src="Image\Ui-Ux.png" height="250vh" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">UI&UX design</h5>
-          <img src="Image\figma.png" class="img-fluid rounded-circle" alt="..." style="width: 10vw; height: 10vh;">
+          <div class="image-container"> 
+            <!--Input images here-->
+            <img src="Image\figma.png" class="img-fluid rounded-circle" alt="..." style="width: 10vw; height: 10vh;">
+          </div>
         </div>
       </div>
     </div>
